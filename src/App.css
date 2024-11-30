@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  width: 300px;
+  gap: 5px;
+}
+
+.board-item {
+  height: 100px;
+  width: 100px;
+  border: 1px solid green;
+  background-color: white;
+}
